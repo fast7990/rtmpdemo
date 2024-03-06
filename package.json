@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/fast7990/rtmpdemo/issues"
   },
-  "homepage": "https://github.com/fast7990/rtmpdemo#readme"
+  "homepage": "https://github.com/fast7990/rtmpdemo#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.24"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "moment": "^2.30.1"
+  }
 }
