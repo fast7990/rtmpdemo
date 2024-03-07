@@ -54,7 +54,7 @@ const timeToLive = async () => {
         .videoCodec('libx264')
         .size(`${width}x${height}`)
         .format('image2pipe')
-        .output('rtmp://192.168.0.185:1935/livehime') // 可以使用 B 站直播姬获取第三方推流地址
+        .output('rtmp://10.18.190.146:1935') // 可以使用 B 站直播姬获取第三方推流地址
         .outputOptions([
             '-f flv',
             '-b:v 500k',
